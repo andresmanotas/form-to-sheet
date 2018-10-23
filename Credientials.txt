@@ -1,0 +1,8 @@
+Google Script Url Source:
+https://script.google.com/d/15xy84Sl9De92w7fkwJflkOdIZl-ru7NuMgXMerJXg1Ywb9yNBQAo_EPS/edit
+
+After Deploying As web App:
+https://script.google.com/macros/s/AKfycbxN-djmgBS1wIvuXMbzZoSP02daabXKTVTI7CoM1jDQwX_d0wk/exec
+
+Google Spreadsheet for Register Record Insertion:
+https://docs.google.com/spreadsheets/d/1cL7Z7849Z-rUFAWE2SM33CMW7-yyZkz4zqAywPPhFbg/edit#gid=0

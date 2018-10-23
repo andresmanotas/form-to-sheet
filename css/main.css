@@ -1,0 +1,53 @@
+body {
+  font-family: "Open Sans";
+  margin: 0px;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.form-class {
+  color: white;
+  padding: 3%;
+  font-size: 2.2vw;
+}
+
+form {
+  width: 25%;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+  background-color: #00b8f8;
+  border: 2px solid #00b8f8;
+  padding: 9px 11px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.2s;
+  border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+  background-color: white;
+  color: #00b8f8;
+}
+
+input.book-now {
+  background-color: black;
+  width: 100%;
+  color: white;
+  display: block;
+  font-size: 18px;
+  padding: 9px 11px;
+  text-decoration: none;
+  margin-bottom: 8px;
+  border: 1px solid white;
+  border-radius: 3px;
+  letter-spacing: 2px;
+  outline: none;
+}

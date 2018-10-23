@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/sanitize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+	<div class="form-class">
+		<form autocomplete="off" action="javascript:;" id="resetForm" onsubmit="insert_value()">
+			<input type="text" id="name" maxlength="30" pattern="[a-zA-Z][a-zA-Z ]+" class="book-now" placeholder="Enter your name"
+			 title="Digite un nombre válido" required autofocus>
+			<input type="number" id="age" min="18" max="99" class="book-now" placeholder="Enter your age" required>
+			<input type="text" id="tel" maxlength="10" pattern="\d{10,}" class="book-now" placeholder="Enter your 10 digit phone"
+			 title="Digite un teléfono válido" required>
+			<input type="text" id="dni" maxlength="10" pattern="\d{10,}" class="book-now" placeholder="Enter your DNI" title="Digite un DNI válido"
+			 required>
+			<input type="email" class="book-now" id="email" placeholder="Enter your email" required>
+			<input type="submit" value="Register Now">
+		</form>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
